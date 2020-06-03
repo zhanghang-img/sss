@@ -1,0 +1,191 @@
+*{
+				margin: 0;
+				padding: 0;
+			}
+			li{
+				list-style: none;
+			}
+	/* 顶部  wrap */
+			#wrap{
+				width: 100%;
+				height: 35px;
+				background-color: black;
+				position: sticky;
+				top: 0;
+				left: 0;
+				z-index: 1;
+			}
+			#wrap p{
+				color: azure;
+				margin-left: 18px;
+				font-size: 18px;
+				line-height: 35px;
+			}
+			
+			/* 头部 herder */
+			.header{
+				width:100%;
+				height: 56px;
+				display: flex;
+				position: sticky;
+				top: 35px;
+				left: 0;
+				z-index: 1;
+				background-color:white;
+			}
+			.logo{
+				width: 66px;
+				height: 45px;
+				margin-right: 20px;
+			}
+			.logo img{
+				margin-top: 5px;
+			}
+			
+			/* 导航 nav */
+			.nav{
+				width: 281px;
+				height: 60px;
+				margin-left: 10px;
+			}
+			.qq{
+				display: flex;
+				justify-content: space-between;
+			}
+			.nav-a1{
+				height: 60px;
+				color: #000000;
+				text-decoration: none;
+				display:block;
+				width:50px;
+				/* text-align: center; */
+				font-size: 15px;
+				line-height: 60px;
+			}
+			.nav a{
+				color: #000000;
+				text-decoration: none;
+			}
+			.nav a:hover{
+				color:red ;
+				text-decoration: underline;
+			}
+			
+			
+			
+			/* 搜索 search */
+			.search{
+				width: 683px;
+				/* background-color: aqua; */
+				margin-left: 15px;
+			}
+			.search-box{
+				width: 360px;
+				height: 42px;
+				margin-left: 225px;
+				margin-top: 5px;
+				position: relative;
+			}
+			.search-box input{
+				width: 100%;
+				height: 42px;
+			}
+			
+			/* 登录 enter */
+			.enter{
+				width: 326px;
+				/* background-color: sandybrown; */
+				display: flex;
+			}
+			.enter-box{
+				margin-top: 10px;
+			}
+			.enter-box a:hover{
+				color: #FF0000;
+			}
+			.enter-btn{
+				margin-top: 10px;
+				margin-left: 20px;
+			}
+			.enter-btn a:hover{
+				color: #FF0000;
+			}
+			.enter a{
+				color: #000000;
+				text-decoration: none;
+			}
+			
+			
+			/* 二级菜单  nav-box */
+			.nav-a1 .nav-nth{
+				position: fixed;
+				left:0px;
+				top: 90px;
+			}
+			
+			.nav-nth{
+				width: 1400px;
+				height: 278px;
+				background-color: white;
+				/* background-color: #FF0000; */
+				display: none;
+				/* margin-left: -83px; */
+			}
+			.nav-abc{
+				width: 1350px;
+				height: 278px;
+				display: flex;
+				justify-content:space-around ;
+			}
+			.nav-img{
+				display: flex;
+				justify-content: space-between;
+			}
+			.nav-abc{
+				text-align: 13px;
+				line-height: 25px;
+			}
+			.nav-img li{
+				margin-left: 25px;
+			}
+			.nav-img img{
+				width:160px ;
+				height: 170px;
+			}
+			.nav-a1:hover .nav-nth{
+				display: block;
+			}
+			
+			
+			
+		#box{
+		    /* position: relative; */
+		    width: 400px;
+		    height: 300px;
+		    background-image: url(../img/h11.jpg);
+		    background-size: 400px 300px;
+				z-index: 1;
+		}
+		
+		#mirror-box{
+		    /* position: absolute; */
+		    left: 50px;
+		    top:10px;
+		    width: 120px;
+		    height: 120px;
+		    background-color: red;
+		    opacity: 0.3;
+		}
+		
+		#show-box{
+		    /* position: absolute; */
+		    left:420px;
+		    top:0;
+		    width: 240px;
+		    height: 240px;
+		    border:1px solid pink;
+		    background-image: url(img/img1.jpg);
+		    background-size: 800px 600px;
+		    background-position: -100px -20px;
+		}
+		

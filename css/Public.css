@@ -1,0 +1,280 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+hr,
+ul,
+ol,
+td,
+input,
+option,
+textarea {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "微软雅黑";
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+	display: block;
+}
+
+
+/* header */
+#headerBox {
+	width: 100%;
+	background-color: #272727;
+	border-top: 1px solid #b6b4b6;
+}
+
+#HeaderMinBox {
+	width: 1185px;
+	height: 47px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#time {
+	color: #999999;
+	font-size: 14px;
+	width: 200px;
+	display: flex;
+	align-items: center;
+}
+
+#time img {
+	width: 13px;
+	height: 13px;
+}
+
+#Signin {
+	width: 105px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+}
+
+#Signin a {
+	color: #999999;
+}
+
+#Signin img {
+	width: 20px;
+	height: 20px;
+	margin-left: 15px;
+}
+
+/* nav */
+#navBox {
+	width: 100%;
+	background-color: #0a0a0a;
+	border-bottom: 1px solid #00EFF2;
+}
+
+#NavMinBox {
+	width: 1185px;
+	height: 98px;
+	margin: auto;
+	position: relative;
+}
+
+#NavMinBox #logo {
+	width: 231px;
+	height: 50px;
+	margin-top: 25px;
+	cursor: pointer;
+}
+
+#NavMinBox a:nth-of-type(2) {
+	margin-left: 85px;
+	color: #00eff2;
+}
+
+#NavMinBox a {
+	float: left;
+	margin-left: 43px;
+	font-size: 14px;
+	display: inline;
+	cursor: auto;
+	color: #999999;
+}
+
+#NavMinBox span {
+	line-height: 98px;
+	cursor: pointer;
+}
+
+#NavMinBox span:hover {
+	color: #00eff2;
+}
+
+
+#NavMinBox input {
+	width: 160px;
+	height: 35px;
+	float: right;
+	border: 1px solid #373737;
+	background-color: #0a0a0a;
+	margin-top: 31px;
+	color: #999999;
+}
+
+#NavMinBox #seo {
+	position: absolute;
+	top: 43px;
+	right: 1px;
+	cursor: pointer;
+}
+
+
+/* footer */
+footer{
+	width: 100%;
+	background-color: #272727;
+}
+
+.Footer_Box{
+	width: 1190px;
+	height: 280px;
+	margin: auto;
+}
+
+.Footer_List{
+	width: 100%;
+	height: 41px;
+	background: #000000;
+	font-size: 12px;
+	text-align: center;
+	color: #999999;
+	line-height: 41px;
+}
+
+.FT_head{
+	width: 1190px;
+	height: 75px;
+	border-bottom: 1px solid #373737 ;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.FT_head_1{
+	width: 228px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+}
+
+.FTH_min{
+	font-size: 15px;
+	color: #999999;
+	margin-left: 5px;
+}
+.FT_left{
+	width: 964px;
+	height: 123px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-right: 1px solid #373737;
+}
+
+.FT_foot{
+	width: 1190px;
+	height: 203px;
+	display: flex;
+	align-items: center;
+}
+
+.FTLbox{
+	width: 159px;
+	height: 106px;
+}
+
+.FTLbox1{
+	width: 149px;
+	height: 24px;
+	color: #999999;
+	font-size: 15px;
+	margin-bottom: 16px;
+}
+
+.FTLbox2{
+	width: 60px;
+	height: 66px;
+}
+
+.FTLbox2 span{
+	font-size: 11px;
+	color: #999999;
+}
+
+.FTRbox{
+	width: 226px;
+	height: 108px;
+}
+
+.FTnumber{
+	font-size: 20px;
+	color: #00EFF2;
+	text-align: center;
+}
+
+.FTtime{
+	font-size: 12px;
+	color: #999999;
+	text-align: center;
+	margin: 12px 0 21px 0;
+}
+
+.BtnBox{
+	width: 152px;
+	height: 37px;
+	margin: auto;
+}
+
+.BtnBox:hover .btn{
+	background-color: #00EFF2;
+	transition: all 0.3s linear;
+}
+
+.BtnBox:hover a{
+	color: #272727;
+	transition: all 0.1s ease-in;
+}
+
+.BtnBox a{
+	color: #00EFF2;
+	font-size: 14px;
+	text-align: center;
+}
+
+.btn{
+	width: 152px;
+	height: 37px;
+	border: 1px solid #00EFF2;
+	background-color: #272727;
+	cursor: pointer;
+}

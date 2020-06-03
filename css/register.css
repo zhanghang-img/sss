@@ -1,0 +1,315 @@
+*{
+				margin: 0;
+				padding: 0;
+			}
+			li{
+				list-style: none;
+			}
+	/* 顶部  wrap */
+			#wrap{
+				width: 100%;
+				height: 35px;
+				background-color: black;
+				position: sticky;
+				top: 0;
+				left: 0;
+				z-index: 1;
+			}
+			#wrap p{
+				color: azure;
+				margin-left: 18px;
+				font-size: 18px;
+				line-height: 35px;
+			}
+			
+			/* 头部 herder */
+			.header{
+				width:100%;
+				height: 56px;
+				display: flex;
+				position: sticky;
+				top: 35px;
+				left: 0;
+				z-index: 1;
+				background-color:white;
+			}
+			.logo{
+				width: 66px;
+				height: 45px;
+				margin-right: 20px;
+			}
+			.logo img{
+				margin-top: 5px;
+			}
+			
+			/* 导航 nav */
+			.nav{
+				width: 281px;
+				height: 60px;
+				margin-left: 10px;
+			}
+			.qq{
+				display: flex;
+				justify-content: space-between;
+			}
+			.nav-a1{
+				height: 60px;
+				color: #000000;
+				text-decoration: none;
+				display:block;
+				width:50px;
+				/* text-align: center; */
+				font-size: 15px;
+				line-height: 60px;
+			}
+			.nav a{
+				color: #000000;
+				text-decoration: none;
+			}
+			.nav a:hover{
+				color:red ;
+				text-decoration: underline;
+			}
+			
+			
+			
+			/* 搜索 search */
+			.search{
+				width: 683px;
+				/* background-color: aqua; */
+				margin-left: 15px;
+			}
+			.search-box{
+				width: 360px;
+				height: 42px;
+				margin-left: 225px;
+				margin-top: 5px;
+				position: relative;
+			}
+			.search-box input{
+				width: 100%;
+				height: 42px;
+			}
+			
+			/* 登录 enter */
+			.enter{
+				width: 326px;
+				/* background-color: sandybrown; */
+				display: flex;
+			}
+			.enter-box{
+				margin-top: 10px;
+			}
+			.enter-box a:hover{
+				color: #FF0000;
+			}
+			.enter-btn{
+				margin-top: 10px;
+				margin-left: 20px;
+			}
+			.enter-btn a:hover{
+				color: #FF0000;
+			}
+			.enter a{
+				color: #000000;
+				text-decoration: none;
+			}
+			
+			
+			/* 二级菜单  nav-box */
+			.nav-a1 .nav-nth{
+				position: fixed;
+				left:0px;
+				top: 90px;
+			}
+			
+			.nav-nth{
+				width: 1400px;
+				height: 278px;
+				background-color: white;
+				/* background-color: #FF0000; */
+				display: none;
+				/* margin-left: -83px; */
+			}
+			.nav-abc{
+				width: 1350px;
+				height: 278px;
+				display: flex;
+				justify-content:space-around ;
+			}
+			.nav-img{
+				display: flex;
+				justify-content: space-between;
+			}
+			.nav-abc{
+				text-align: 13px;
+				line-height: 25px;
+			}
+			.nav-img li{
+				margin-left: 25px;
+			}
+			.nav-img img{
+				width:160px ;
+				height: 170px;
+			}
+			.nav-a1:hover .nav-nth{
+				display: block;
+			}
+			
+			/* 登录 */
+			.dlyh{
+				width: 100%;
+				height: 86px;
+				background-color: #ebebeb;
+				text-align: center;
+				font-size: 28px;
+				line-height:86px ;
+				box-shadow: 0 1px 1px rgba(0,0,0,.2);
+			}
+			
+			.rst{
+				width: 100%;
+				height: 590px;
+				background-image: url(../img/7.jpg);
+				position: relative;
+			}
+			.rst-box{
+				width: 550px;
+				height: 450px;
+				background-color: #ebebeb;
+				position: absolute;
+				right: 100px;
+				top:80px;
+			}
+			.rst-box h2{
+		    font-family: proxima nova w01,helvetica neue,helvetica,Helvetica,Arial,sans-serif;
+				font-size: 22px;
+		    border-bottom: 1px solid #666;
+				margin-top: 25px;
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+			#userId{
+				margin-top: 30px;
+				width: 400px;
+				height: 35px;
+			}
+			#passId{
+				margin-top: 30px;
+				width: 400px;
+				height: 35px;
+			}
+			#pass2Id{
+				margin-top: 30px;
+				width: 400px;
+				height: 35px;
+			}
+			.box{
+				margin-top: 30px;
+				margin-left: 30px;
+			}
+			#btnReg{
+				width: 70px;
+				height: 35px;
+				margin-left:240px;
+				margin-top: 50px;
+			}
+			
+			
+			
+			
+	.button{
+		width: 100%;
+		height: 74px;
+		background-color: #232323;
+		border-bottom: 1px solid #747070;
+		
+	}
+	.button-box{
+		display: flex;
+		margin-left: 360px;
+	}
+	
+	.button-box li{
+		width: 200px;
+		height:64px ;
+		margin-top: 20px;
+		text-align: center;
+		margin-left: 50px;
+	}	
+	.button-box a{
+		font-size: 15px;
+		color: #F0FFFF;
+		text-decoration: none;
+	}
+	.button-box a:hover{
+		text-decoration: underline;
+		color: #FF0000;
+	}
+	
+	/* tag */
+	.tag{
+		width:100%;
+		height: 255px;
+		background-color: #232323;
+		border-bottom: 1px solid #747070;
+	}
+	
+	.tag-box{
+		width: 960px;
+		height:254px ;
+		margin-left: 195px;
+		display: flex;
+		justify-content: space-around;
+	}
+	.tag-box ul{
+		margin-left: 10px;
+		margin-right: 10px;
+		color: #F0FFFF;
+		
+		padding-top: 8px;
+	}
+	.tag-box ul li{
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.tag-box ul span{
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.tag-box a{
+		color: #F0FFFF;
+		text-decoration: none;
+	}
+	.tag-box a:hover{
+		color: #FF0000;
+		text-decoration: underline;
+	}
+	
+	
+	/* 最后的 out */
+	.out{
+		width: 100%;
+		height: 60px;
+		background-color: #232323;
+		color: #F0FFFF;
+		font-size: 12px;
+		text-align: center;
+		line-height: 25px;
+	}
+	.out p{
+		color: #747070;
+	}
+	.out a{
+		color: #F0FFFF;
+		text-decoration: none;
+	}
+	.out a:hover{
+		color: #FF0000;
+		text-decoration: underline;
+	}
+	.gg{
+		position: fixed;
+		right: 0;
+		bottom: 40px;
+	}
